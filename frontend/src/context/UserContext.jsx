@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
 export const userDataContext = createContext();
 function UserContext({ children }) {
-  const serverUrl = "https://virtualassistant-production-130c.up.railway.app/";
+  const serverUrl = "https://virtualassistant-production-130c.up.railway.app";
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
